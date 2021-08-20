@@ -1,0 +1,89 @@
+@media only screen and (max-width: 768px) {
+    .headline {
+        margin-left: -11rem;
+    }
+    .tc {
+        width: 148%;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .bg-color {
+        width: 136%;
+    }
+    .tc {
+        width: 220%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .bg-color {
+        width: 154%;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .bg-color {
+        width: 181%;
+    }
+  }
+.bg-color {
+    background-color: #ffc008;
+}
+.headline {
+    padding-top: 4rem;
+    padding-right: 20rem;
+    padding-left: 19rem;
+    padding-bottom: 3rem;
+}
+.font-light {
+    font-size: 6rem;
+    color: #f9f9f9;
+    background-color: #100f0f;
+    cursor: pointer;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.animate-cl-nm:hover {
+    background-color: #3e923e;
+    transition: .15s ease-in-out;
+}
+.animate-dg-ed:hover {
+    background-color: white;
+    color: black;
+    transition: .15s ease-in-out;
+}
+.animate-pr:hover {
+    background-color: #ec2e2e;
+    transition: .15s ease-in-out;
+}
+.tc {
+    text-align: center;
+    text-transform: uppercase;
+}
+.bt {
+    border-top: 0.25px solid;
+    padding-top: 1rem;
+}
+.bb {
+    border-bottom: 0.25px solid;
+    padding-bottom: 1rem;
+}
+.plr {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.cl {
+    color: #000;
+    font-size: 15px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.cl:hover {
+    color: #000;
+}
+.pt {
+    padding-top: 1rem;
+}
+.pr {
+    padding-right: 1rem;
+}
+.pr:hover {
+    fill: #ffff;
+}
