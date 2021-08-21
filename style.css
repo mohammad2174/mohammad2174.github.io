@@ -1,9 +1,17 @@
+@media only screen and (max-width: 1024px) {
+  .prs {
+    margin-left: -12rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   .headline {
     margin-left: -11rem;
   }
   .tc {
     width: 148%;
+  }
+  .prs {
+    margin-left: -30rem;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -12,6 +20,10 @@
   }
   .tc {
     width: 220%;
+  }
+  .prs {
+    margin-left: -39rem;
+    margin-right: -11rem;
   }
 }
 @media only screen and (max-width: 375px) {
