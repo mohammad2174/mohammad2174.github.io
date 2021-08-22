@@ -1,9 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
 @media only screen and (max-width: 1024px) {
   .prs {
+    margin-left: -22rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .headline {
     margin-left: -12rem;
   }
 }
 @media only screen and (max-width: 768px) {
+  .bg-color {
+    width: 122%;
+  }
   .headline {
     margin-left: -11rem;
   }
@@ -11,15 +22,20 @@
     width: 148%;
   }
   .prs {
-    margin-left: -30rem;
+    margin-left: -37rem;
+  }
+}
+@media only screen and (max-width: 523px) {
+  .bg-color {
+    width: 148%;
   }
 }
 @media only screen and (max-width: 425px) {
   .bg-color {
-    width: 136%;
+    width: 177%;
   }
   .tc {
-    width: 220%;
+    width: 173%;
   }
   .prs {
     margin-left: -39rem;
@@ -28,12 +44,22 @@
 }
 @media only screen and (max-width: 375px) {
   .bg-color {
-    width: 154%;
+    width: 177%;
+  }
+  .tc {
+    width: 198%;
+  }
+  .prs {
+    margin-left: -35rem;
+    margin-right: -11rem;
   }
 }
 @media only screen and (max-width: 320px) {
   .bg-color {
     width: 181%;
+  }
+  .prs {
+    margin-left: -34rem;
   }
 }
 b {
@@ -110,6 +136,7 @@ b {
 .prs-font {
   font-size: 1.5rem;
   text-transform: uppercase;
+  text-decoration: underline;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -172,4 +199,21 @@ b {
   margin-top: 1rem;
   font-size: 0.9rem;
   color: #757171;
+  font-style: italic;
+}
+.t-about {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  padding-top: 1.25rem;
+}
+.p-exp {
+  font-size: 1.4rem;
+  font-style: oblique;
+  border-left: 0.15rem solid #ffc008;
+  padding-left: 2.5rem;
+}
+.h-exp:hover {
+  background-color: #fdcd1dfa;
 }
