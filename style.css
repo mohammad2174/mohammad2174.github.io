@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+a:hover {
+  color: #000;
+}
 @media only screen and (max-width: 1024px) {
   .prs {
     margin-left: -22rem;
@@ -216,4 +219,87 @@ b {
 }
 .h-exp:hover {
   background-color: #fdcd1dfa;
+}
+.p-port {
+  text-transform: uppercase;
+  padding-top: 5rem;
+  font-size: 1.65rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.p-exl {
+  font-size: 7rem;
+  border-style: dashed;
+  border-width: 0.21rem;
+  border-color: #f97f17;
+}
+.p-cl {
+  color: #ff2121d1;
+}
+.u-st {
+  text-transform: uppercase;
+  list-style-type: none;
+  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+  font-family: monospace;
+  padding-top: 3rem;
+}
+.fita-st {
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #ff2121d1;
+  color: #000;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+.fita-st:hover {
+  color: #ffff;
+  transition: 0.15s ease-in;
+  background-color: #ff2121d1;
+}
+.madan-st {
+  margin-top: 0.8rem;
+}
+.madana-st {
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #f06603;
+  color: #000;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+.madana-st:hover {
+  background-color: #f06603;
+}
+.mon-st {
+  margin-top: 0.8rem;
+}
+.mona-st {
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #0e5ae6d1;
+  color: #000;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+.mona-st:hover {
+  color: #ffff;
+  transition: 0.15s ease-in;
+  background-color: #0e5ae6d1;
+}
+.andm-st {
+  border-style: solid;
+  border-width: 0.1rem;
+  color: #000;
+  margin-top: 0.8rem;
+  text-transform: lowercase;
+  margin-right: 43rem;
+  border-radius: 0.5rem;
+}
+.rea-font {
+  font-size: 1.75rem;
+  text-decoration: underline;
+  padding-top: 2rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
