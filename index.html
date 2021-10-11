@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,59 +11,60 @@
 </head>
 <body>
     <main>
-        <header class='bg-color' id='scrollup'>
-            <div class="headline">
+        <header class="bg-yellow-400" id='scrollup'>
+            <div class="pt-8 pl-12 pb-12 md:pt-16 md:pl-44">
                     <h3>
-                        <span class='font-light'>
-                            <span class='animate-cl-nm'>Mohammad Reza Khorrami</span>
+                        <span class="bg-black cursor-pointer font-sans font-bold text-white text-3xl leading-relaxed md:text-7xl md:leading-relaxed">
+                            <span class="hover:bg-green-600 transition duration-150 ease-in-out">Mohammad Reza Khorrami</span>
                             <br>
-                            <span class='animate-dg-ed'>Software Engineer</span>
+                            <span class="text-white hover:bg-white transition duration-150 ease-in-out hover:text-black">Software Engineer</span>
                             <br>
-                            <span class='animate-pr'>Web Developer</span>
+                            <span class="hover:bg-red-500 transition duration-150 ease-in-out">Web Developer</span>
                         </span>
                     </h3>
-                    <div class='tc bt bb'>
-                        <a class='plr cl' href="#about">About</a>
-                        <a class='plr cl' href="#portfolio">Portfolio</a>
-                        <a class='plr cl' href="#email">Contact</a>
-                        <a class='plr cl' href="https://medium.com/@mohammadreza.khorrami21" target="_blank">Blog</a>
+                    <div class="text-center uppercase border-t border-black pt-3 border-b border-black pb-3 mt-4 mr-12 md:mr-40">
+                        <a class=" font-mono text-black text-sm md:text-xl md:px-2" href="#about">About</a>
+                        <a class=" font-mono text-black text-sm md:text-xl md:px-2" href="#portfolio">Portfolio</a>
+                        <a class=" font-mono text-black text-sm md:text-xl md:px-2" href="#email">Contact</a>
+                        <a class=" font-mono text-black text-sm md:text-xl md:px-2" href="https://medium.com/@mohammadreza.khorrami21" target="_blank">Blog</a>
                     </div>
-                    <p class='tc pt'>
-                        <a class='pr' href="https://medium.com/@mohammadreza.khorrami21" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" id="Layer_1" style="enable-background:new 0 0 56.6934 56.6934;" version="1.1" viewBox="0 0 56.6934 56.6934" width="56.6934px" xml:space="preserve"><g><path d="M38.0334,42.1459l14.9494,7.4733c0.0265,0.0132,0.0505,0.0233,0.0713,0.0315c0.0025-0.0216,0.0042-0.0481,0.0042-0.0779   V17.7293L38.0334,42.1459z"/><polygon points="37.0932,6.9992 26.4859,24.1613 36.687,40.7398 52.661,14.7827  "/><polygon points="20.3149,33.2962 34.1558,40.2157 20.3149,17.726  "/><path d="M3.0002,41.4627c0,0.2339,0.2297,0.6053,0.4386,0.7097l14.917,7.4585c0.0274,0.0132,0.0514,0.0249,0.0721,0.0315   c0.0026-0.0216,0.0042-0.0481,0.0042-0.078V14.9816L3.001,7.2661L3.0002,41.4627z"/></g></svg></a>
-                        <a class='pr' href="https://www.linkedin.com/in/mohammadreza-khorrami-238302215/"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" version="1.1" viewBox="0 0 512 512" width="50.6934px" xml:space="preserve"><g id="linkdin__x2C__social__x2C_media_x2C__logo"><path d="M434.478,16H77.522C43.718,16,16,43.721,16,77.521v356.957   C16,468.278,43.718,496,77.522,496h356.955C468.285,496,496,468.278,496,434.479V77.521C496,43.721,468.285,16,434.478,16z    M181,247.812V396h-65V258.868V209h65V247.812z M148.37,181.128c-18.083,0-32.756-14.662-32.756-32.756   c0-18.097,14.673-32.741,32.756-32.741c18.108,0,32.767,14.645,32.767,32.741C181.137,166.466,166.479,181.128,148.37,181.128z    M396,294v102h-56v-90.833c0-21.75-2.355-49.724-32.164-49.724c-30.262,0-34.836,23.679-34.836,48.156V396h-54V245.12V209h52v25   h0.554c7.756-14,26.757-25.02,55.051-25.02c47.672,0,63.872,22.543,68.305,57.812c1.052,8.277,1.458,17.208,1.458,27.208H396z"/></g><g id="Layer_1"/></svg></a>
-                        <a class='pr' href="https://github.com/mohammad2174" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="50.6934px" xml:space="preserve"><g><path class="st0" d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/></g></svg></a>
-                        <a class='pr' href="https://www.instagram.com/mohammadreza_khorrami21/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 600 600" width="50.6934px" xml:space="preserve"><g transform="matrix(1.01619,0,0,1.01619,44,43.8384)"><path d="M251.921,0.159C183.503,0.159 174.924,0.449 148.054,1.675C121.24,2.899 102.927,7.157 86.902,13.385C70.336,19.823 56.287,28.437 42.282,42.442C28.277,56.447 19.663,70.496 13.225,87.062C6.997,103.086 2.739,121.399 1.515,148.213C0.289,175.083 0,183.662 0,252.08C0,320.497 0.289,329.076 1.515,355.946C2.739,382.76 6.997,401.073 13.225,417.097C19.663,433.663 28.277,447.712 42.282,461.718C56.287,475.723 70.336,484.337 86.902,490.775C102.927,497.002 121.24,501.261 148.054,502.484C174.924,503.71 183.503,504 251.921,504C320.338,504 328.917,503.71 355.787,502.484C382.601,501.261 400.914,497.002 416.938,490.775C433.504,484.337 447.553,475.723 461.559,461.718C475.564,447.712 484.178,433.663 490.616,417.097C496.843,401.073 501.102,382.76 502.325,355.946C503.551,329.076 503.841,320.497 503.841,252.08C503.841,183.662 503.551,175.083 502.325,148.213C501.102,121.399 496.843,103.086 490.616,87.062C484.178,70.496 475.564,56.447 461.559,42.442C447.553,28.437 433.504,19.823 416.938,13.385C400.914,7.157 382.601,2.899 355.787,1.675C328.917,0.449 320.338,0.159 251.921,0.159ZM251.921,45.551C319.186,45.551 327.154,45.807 353.718,47.019C378.28,48.14 391.619,52.244 400.496,55.693C412.255,60.263 420.647,65.723 429.462,74.538C438.278,83.353 443.737,91.746 448.307,103.504C451.757,112.381 455.861,125.72 456.981,150.282C458.193,176.846 458.45,184.814 458.45,252.08C458.45,319.345 458.193,327.313 456.981,353.877C455.861,378.439 451.757,391.778 448.307,400.655C443.737,412.414 438.278,420.806 429.462,429.621C420.647,438.437 412.255,443.896 400.496,448.466C391.619,451.916 378.28,456.02 353.718,457.14C327.158,458.352 319.191,458.609 251.921,458.609C184.65,458.609 176.684,458.352 150.123,457.14C125.561,456.02 112.222,451.916 103.345,448.466C91.586,443.896 83.194,438.437 74.378,429.621C65.563,420.806 60.103,412.414 55.534,400.655C52.084,391.778 47.98,378.439 46.859,353.877C45.647,327.313 45.391,319.345 45.391,252.08C45.391,184.814 45.647,176.846 46.859,150.282C47.98,125.72 52.084,112.381 55.534,103.504C60.103,91.746 65.563,83.353 74.378,74.538C83.194,65.723 91.586,60.263 103.345,55.693C112.222,52.244 125.561,48.14 150.123,47.019C176.687,45.807 184.655,45.551 251.921,45.551Z"/><path d="M251.921,336.053C205.543,336.053 167.947,298.457 167.947,252.08C167.947,205.702 205.543,168.106 251.921,168.106C298.298,168.106 335.894,205.702 335.894,252.08C335.894,298.457 298.298,336.053 251.921,336.053ZM251.921,122.715C180.474,122.715 122.556,180.633 122.556,252.08C122.556,323.526 180.474,381.444 251.921,381.444C323.367,381.444 381.285,323.526 381.285,252.08C381.285,180.633 323.367,122.715 251.921,122.715Z"/><path d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z"/></g></svg></a>
+                    <p class="pt-4 flex 2xl:pl-96 xl:pl-80 lg:pl-52 md:pl-28 sm:pl-40">
+                        <a class="pr-4 hover:text-white fill-current" href="https://medium.com/@mohammadreza.khorrami21" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" id="Layer_1" style="enable-background:new 0 0 56.6934 56.6934;" version="1.1" viewBox="0 0 56.6934 56.6934" width="56.6934px" xml:space="preserve"><g><path d="M38.0334,42.1459l14.9494,7.4733c0.0265,0.0132,0.0505,0.0233,0.0713,0.0315c0.0025-0.0216,0.0042-0.0481,0.0042-0.0779   V17.7293L38.0334,42.1459z"/><polygon points="37.0932,6.9992 26.4859,24.1613 36.687,40.7398 52.661,14.7827  "/><polygon points="20.3149,33.2962 34.1558,40.2157 20.3149,17.726  "/><path d="M3.0002,41.4627c0,0.2339,0.2297,0.6053,0.4386,0.7097l14.917,7.4585c0.0274,0.0132,0.0514,0.0249,0.0721,0.0315   c0.0026-0.0216,0.0042-0.0481,0.0042-0.078V14.9816L3.001,7.2661L3.0002,41.4627z"/></g></svg></a>
+                        <a class="pr-4 hover:text-white fill-current" href="https://www.linkedin.com/in/mohammadreza-khorrami-238302215/"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" version="1.1" viewBox="0 0 512 512" width="50.6934px" xml:space="preserve"><g id="linkdin__x2C__social__x2C_media_x2C__logo"><path d="M434.478,16H77.522C43.718,16,16,43.721,16,77.521v356.957   C16,468.278,43.718,496,77.522,496h356.955C468.285,496,496,468.278,496,434.479V77.521C496,43.721,468.285,16,434.478,16z    M181,247.812V396h-65V258.868V209h65V247.812z M148.37,181.128c-18.083,0-32.756-14.662-32.756-32.756   c0-18.097,14.673-32.741,32.756-32.741c18.108,0,32.767,14.645,32.767,32.741C181.137,166.466,166.479,181.128,148.37,181.128z    M396,294v102h-56v-90.833c0-21.75-2.355-49.724-32.164-49.724c-30.262,0-34.836,23.679-34.836,48.156V396h-54V245.12V209h52v25   h0.554c7.756-14,26.757-25.02,55.051-25.02c47.672,0,63.872,22.543,68.305,57.812c1.052,8.277,1.458,17.208,1.458,27.208H396z"/></g><g id="Layer_1"/></svg></a>
+                        <a class="pr-4 hover:text-white fill-current" href="https://github.com/mohammad2174" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="50.6934px" xml:space="preserve"><g><path class="st0" d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/></g></svg></a>
+                        <a class="pr-4 hover:text-white fill-current" href="https://www.instagram.com/mohammadreza_khorrami21/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink" height="56.6934px" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 600 600" width="50.6934px" xml:space="preserve"><g transform="matrix(1.01619,0,0,1.01619,44,43.8384)"><path d="M251.921,0.159C183.503,0.159 174.924,0.449 148.054,1.675C121.24,2.899 102.927,7.157 86.902,13.385C70.336,19.823 56.287,28.437 42.282,42.442C28.277,56.447 19.663,70.496 13.225,87.062C6.997,103.086 2.739,121.399 1.515,148.213C0.289,175.083 0,183.662 0,252.08C0,320.497 0.289,329.076 1.515,355.946C2.739,382.76 6.997,401.073 13.225,417.097C19.663,433.663 28.277,447.712 42.282,461.718C56.287,475.723 70.336,484.337 86.902,490.775C102.927,497.002 121.24,501.261 148.054,502.484C174.924,503.71 183.503,504 251.921,504C320.338,504 328.917,503.71 355.787,502.484C382.601,501.261 400.914,497.002 416.938,490.775C433.504,484.337 447.553,475.723 461.559,461.718C475.564,447.712 484.178,433.663 490.616,417.097C496.843,401.073 501.102,382.76 502.325,355.946C503.551,329.076 503.841,320.497 503.841,252.08C503.841,183.662 503.551,175.083 502.325,148.213C501.102,121.399 496.843,103.086 490.616,87.062C484.178,70.496 475.564,56.447 461.559,42.442C447.553,28.437 433.504,19.823 416.938,13.385C400.914,7.157 382.601,2.899 355.787,1.675C328.917,0.449 320.338,0.159 251.921,0.159ZM251.921,45.551C319.186,45.551 327.154,45.807 353.718,47.019C378.28,48.14 391.619,52.244 400.496,55.693C412.255,60.263 420.647,65.723 429.462,74.538C438.278,83.353 443.737,91.746 448.307,103.504C451.757,112.381 455.861,125.72 456.981,150.282C458.193,176.846 458.45,184.814 458.45,252.08C458.45,319.345 458.193,327.313 456.981,353.877C455.861,378.439 451.757,391.778 448.307,400.655C443.737,412.414 438.278,420.806 429.462,429.621C420.647,438.437 412.255,443.896 400.496,448.466C391.619,451.916 378.28,456.02 353.718,457.14C327.158,458.352 319.191,458.609 251.921,458.609C184.65,458.609 176.684,458.352 150.123,457.14C125.561,456.02 112.222,451.916 103.345,448.466C91.586,443.896 83.194,438.437 74.378,429.621C65.563,420.806 60.103,412.414 55.534,400.655C52.084,391.778 47.98,378.439 46.859,353.877C45.647,327.313 45.391,319.345 45.391,252.08C45.391,184.814 45.647,176.846 46.859,150.282C47.98,125.72 52.084,112.381 55.534,103.504C60.103,91.746 65.563,83.353 74.378,74.538C83.194,65.723 91.586,60.263 103.345,55.693C112.222,52.244 125.561,48.14 150.123,47.019C176.687,45.807 184.655,45.551 251.921,45.551Z"/><path d="M251.921,336.053C205.543,336.053 167.947,298.457 167.947,252.08C167.947,205.702 205.543,168.106 251.921,168.106C298.298,168.106 335.894,205.702 335.894,252.08C335.894,298.457 298.298,336.053 251.921,336.053ZM251.921,122.715C180.474,122.715 122.556,180.633 122.556,252.08C122.556,323.526 180.474,381.444 251.921,381.444C323.367,381.444 381.285,323.526 381.285,252.08C381.285,180.633 323.367,122.715 251.921,122.715Z"/><path d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z"/></g></svg></a>
+                            
                     </p>
             </div>
         </header>
-        <div class='prs'>
-            <p class='prs-font'>Who I Am ?</p>
-            <p class='ml-inset'><b>Well My Name Is Mohammad Reza From Iran, City Karaj.</b><br><p class='ml-inset ft-inset'>My Personality Is Quiet But I Sure Child Inside Me Is Active.</p></p>
-            <p class='prs-font'>What Do You Do Occasionally?<br>
-                <ul class='ml-inset ft-inset pt-litems'>
+        <div class='pt-12 pl-2 2xl:pl-96 xl:pl-80 lg:pl-52 md:pl-28 sm:pl-40'>
+            <p class='text-lg uppercase font-bold font-sans underline md:text-2xl'>Who I Am ?</p>
+            <p class='ml-12 mt-3'><b class='text-sm md:text-lg'>Well My Name Is Mohammad Reza From Iran, City Karaj.</b><br><p class='ml-12 text-sm font-mono mt-2 mb-2 md:text-lg'>My Personality Is Quiet But I Sure Child Inside Me Is Active.</p></p>
+            <p class='text-lg uppercase font-bold font-sans underline md:text-2xl'>What Do You Do Occasionally?<br>
+                <ul class='ml-12 m-3 text-sm font-mono list-disc md:text-lg'>
                     <li>Focus on New Feature Web Technologies</li>
-                    <li>Create An Article Or Reading Others Article</li>
-                    <li>Review Bofore Technologies For Remembre</li>
-                    <li class='li-cl'>Not sure what you need? I can help with that too.</li>
+                    <li class='mt-2'>Create An Article Or Reading Others Article</li>
+                    <li class='mt-2'>Review Bofore Technologies For Remembre</li>
+                    <li class='text-gray-500 text-xs mt-4 md:text-sm'>Not sure what you need? I can help with that too.</li>
                 </ul>
             </p>
-            <p class='profi'>Skills / Languages</p>
-            <ul class='ml-inset ft-inset pt-litems'>
-                <li><span class='cl-r'>&#60;?</span> Php <span class='cl-r'>?&#62;</span><small class='gd'>Good</small></li>
-                <li><span class='cl-r'>{{</span> Laravel <span class='cl-r'>}}</span><small class='gd'>Good</small></li>
-                <li>JavaScript & <span class='cl-r'>$(</span></span> jQuery <span class='cl-r'>)</span><small class='gd'>Good</small></li>
-                <li>Vue<span class='cl-g'>.js</span><small class='gd'>Good</small></li>
-                <li>React<span class='cl-b'>.js</span><small class='gd'>Good</small></li>
-                <li><span class='cl-r'>&#60;</span>Html<span class='cl-r'>&#62; </span>+ <span class='cl-p'>{</span>css<span class='cl-p'>}</span><small class='gd'>Great</small></li>
-                <li>DataBase & SQL<small class='gd'>Good</small></li>
-                <li>Git & Git-Flow<small class='gd'>Good</small></li>
-                <li>Unix & Linux<small class='gd'>Very Good</small></li>
-                <li class='lang'>English<small class='lang-gd'>Middle</small></li>
-                <li class='lang-cl'>Farsi<small class='lang-gd'>Mother Tangue</small></li>
-                <li class='li-cle'>Other Skills Not Mentioned...</li>
+            <p class='bg-yellow-400 mt-8 mr-12 text-2xl font-medium sm:mr-40'>Skills / Languages</p>
+            <ul class='ml-12 mt-4 font-mono leading-8 list-disc'>
+                <li><span class='text-red-500'>&#60;?</span> Php <span class='text-red-500'>?&#62;</span><small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li><span class='text-red-500'>{{</span> Laravel <span class='text-red-500'>}}</span><small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li>JavaScript & <span class='text-red-500'>$(</span></span> jQuery <span class='text-red-500'>)</span><small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li>Vue<span class='text-green-600'>.js</span><small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li>React<span class='text-indigo-500'>.js</span><small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li><span class='text-red-500'>&#60;</span>Html<span class='text-red-500'>&#62; </span>+ <span class='text-pink-600'>{</span>css<span class='text-pink-600'>}</span><small class='ml-4 px-1 border border-gray-600 border-solid'>Great</small></li>
+                <li>DataBase & SQL<small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li>Git & Git-Flow<small class='ml-4 px-1 border border-gray-600 border-solid'>Good</small></li>
+                <li>Unix & Linux<small class='ml-4 px-1 border border-gray-600 border-solid'>Very Good</small></li>
+                <li class='mt-4 text-sm text-indigo-400'>English<small class='ml-4 px-1 border border-indigo-400 border-solid'>Middle</small></li>
+                <li class='mt-2 text-sm text-green-600'>Farsi<small class='ml-4 px-1 border border-green-600 border-solid'>Mother Tangue</small></li>
+                <li class='mt-4 text-sm text-gray-500 italic'>Other Skills Not Mentioned...</li>
             </ul>
-            <p class='t-about' id='about'>About</p>
-            <p class='p-exp'>
+            <p class='font-medium uppercase underline text-xl pt-5 mb-6' id='about'>About</p>
+            <p class='pl-4 border-yellow-400 border-l-2 text-sm font-sans italic md:text-2xl md:pl-10 sm:text-base'>
                 I Studied Software Engreeing at The Payame noor<br>
                 In Hashtgerd City When I Was Student Worked on sql Database<br>
                 And I learned How to Work With The Ubuntu Linux Distribution.<br>
@@ -73,8 +75,8 @@
                 I Learned to Work With Git In 2019 And Decided to<br>
                 Share mySelf Projects with Github However,<br>
                 I Didn`t Have Much Activity in Github.
-            </p>
-            <p class='p-exp'>
+            </p>&nbsp;
+            <p class='pl-4 border-yellow-400 border-l-2 text-sm font-sans italic md:text-2xl md:pl-10 sm:text-base'>
                 It Is a Pleasure For Me to Work With The Challenges<br>
                 In The Web Although I Love Programmer Back End a lot<br>
                 However I Like Working With JavaScript Framework And Library<br>
@@ -82,21 +84,21 @@
                 Despite The Fact That The Web World<br>
                 Is Constantly Changing And Expanding,<br>
                 I am Also Trying to Become a Full Stack Programmer.<br>
-                <span class='h-exp'>Mainely I Interested In Web Application Development, Teamwork,<br>
+                <span class='hover:bg-yellow-400'>Mainely I Interested In Web Application Development, Teamwork,<br>
                 Work On Large Projects, Personal Development And Skills.</span>
             </p>
-            <p class='p-port' id='portfolio'><span class='p-exl'>P</span>ortfolio<span class='p-cl'>oo</span> &sung; </p>
-            <ul class='u-st'>
-                <li><a class='fita-st' href="https://fitbody59.ir/" target="_blank">fitbody59.ir</a></li>
-                <li class='madan-st'><a class='madana-st' href="http://www.madankav.ir/" target="_blank">madankav.ir</a></li>
-                <li class='mon-st'><a class='mona-st' href="https://monster-app-f5e4ac.netlify.app/" target="_blank">monster.app</a></li>
-                <li class='and-st'><a class='andm-st'>and more...</a></li>
+            <p class='pt-20 text-2xl font-sans font-bold uppercase' id='portfolio'><span class='text-9xl border-dashed border-2 border-yellow-500'>P</span>ortfolio<span class='text-red-500'>oo</span> &sung; </p>
+            <ul class='text-lg font-mono uppercase list-none tracking-widest text-base mt-16 pl-12'>
+                <li><a class='p-1 border-solid border border-red-500 transition-all ease-in hover:text-white hover:bg-red-500' href="https://fitbody59.ir/" target="_blank">fitbody59.ir</a></li>
+                <li class='mt-3.5'><a class='p-1 border-solid border border-yellow-600 hover:bg-yellow-500' href="http://www.madankav.ir/" target="_blank">madankav.ir</a></li>
+                <li class='mt-3.5'><a class='p-1 border-solid border border-blue-600 transition-all ease-in hover:text-white hover:bg-blue-600' href="https://monster-app-f5e4ac.netlify.app/" target="_blank">monster.app</a></li>
+                <li class='pt-3 text-base'><a class='mt-3.5 p-1 rounded-lg lowercase border-black border-solid border text-sm'>and more...</a></li>
             </ul>
-            <p class='rea-font'>Reach Out</p>
-            <p class='rea-n'>I like meeting new people</p><br>
-            <a class='email' id="email" href="#" data-name="mohammadreza.khorrami21" data-domain="gmail" data-tld="com" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">EMAIL ME</a>
-            <div class='icon-r'>
-                <a class='icon-p' href='#scrollup'>
+            <p class='mt-12 pt-6 text-lg font-bold font-sans underline md:text-2xl'>Reach Out</p>
+            <p class='ml-12 pt-6 m-3 text-sm font-mono list-disc md:text-lg'>I like meeting new people</p><br>
+            <a class='px-2 text-3xl font-semibold bg-black text-white transition-all duration-300 ease-in-out hover:bg-yellow-500 md:text-4xl' id="email" href="#" data-name="mohammadreza.khorrami21" data-domain="gmail" data-tld="com" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">EMAIL ME</a>
+            <div class='w-16 -mt-2 float-right md:mr-12'>
+                <a class='cursor-pointer' href='#scrollup'>
                     <svg fill="currentColor" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 877.71 877.71" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
                         <g transform="translate(19.99999,28.57142)"><path d="M-20,670.7c0-1.9,350-700,350.6-699.3c1.9,2.4,350.1,699.5,349.4,699.7c-0.4,0.2-79.3-33.7-175.3-75.2 l-174.5-75.6l-174.2,75.5c-95.8,41.5-174.6,75.5-175.1,75.5S-20,671.1-20,670.7z"></path>
                         </g>
@@ -104,13 +106,13 @@
                 </a>
             </div>
         </div>
-        <footer class='foot-res'>
-            <div class='foot'>
-                <p class='p-foot'>Thanks for stopping by</p>
-                <p class='p-end'>Code, design and copy by: <span class='foot-bk'>who do you think?</span><span> &#169; <time>2021</time> Mohammad Reza Khorrami.</span></p>
+        <footer>
+            <div class='pt-16 mt-12 pb-12 text-center bg-purple-500'>
+                <p class='mb-7 text-2xl uppercase font-bold text-white'>Thanks for stopping by</p>
+                <p class='text-sm font-mono text-gray-200'>Code, design and copy by: <span class='bg-black text-black hover:text-gray-200 hover:bg-purple-500'>who do you think?</span><span> &#169; <time>2021</time> Mohammad Reza Khorrami.</span></p>
             </div>
         </footer>
     </main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>    
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>     -->
 </body>
 </html>
